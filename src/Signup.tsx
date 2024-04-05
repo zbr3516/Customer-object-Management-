@@ -1,8 +1,10 @@
-// import Image from './images/com.gif'
+import React from 'react'
 import './Signup.css'
-function Signup() {
-    return (
-        <div>
+interface Props  {}
+
+const About = (props: Props) => {
+  return (
+    <div>
             <div id='bck'>
                 <div className="container">
                     <div id='bang' className="row">
@@ -63,7 +65,7 @@ function Signup() {
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default Signup
+export default About

@@ -1,14 +1,13 @@
 
-// import './App.css';
-// import { Sign } from 'crypto';
-import Login from './Login';
-import Signup from './Signup';
+import { Outlet } from 'react-router';
+import './App.css';
+// import Login from './Login';
 
 function App() {
   return (
     <>
-      <Login />
-      <Signup />
+    {/* <Login /> */}
+  <Outlet />
     </>
   );
 }

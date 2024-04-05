@@ -1,6 +1,8 @@
-import './Login.css'
+// import React from 'react'
 import Image from './images/com.gif'
-function Login() {
+interface Props {}
+
+const Home = (props: Props) => {
   return (
     <div id='bck'>
       <div className="container">
@@ -37,4 +39,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Home
