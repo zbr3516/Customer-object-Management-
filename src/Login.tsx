@@ -29,8 +29,8 @@ const Home = (props: Props) => {
               <input className="form-control input-field me-2 mt-2 ps-4" type="search" placeholder=" Password" aria-label="Search" />
             </div>
             <div>
-            <button className="btn mt-2 btn-block" type="submit">Login</button>
-            <button className="btn btn-outline-success mt-2 btn-block" type="submit"><Link to="/signup">Sign Up</Link></button>
+            <button className="btn mt-2 btn-block" type="submit">LOGIN</button>
+            <button className="btn btn-outline-success mt-2 btn-block" type="submit"><Link to="/signup">SIGN UP</Link></button>
             {/* <button className="btn btn-outline-success mt-2 btnn1" type="submit">Search</button> */}
             </div>
           </div>

@@ -57,10 +57,10 @@ const About = (props: Props) => {
                     </div>
                     <div id="comimg_b" className='row mt-4'>
                         <div className='col-6 mt-4'>
-                            <button className="btn mt-3 btn-block " type="submit">Create Account</button>
+                            <button className="btn mt-3 btn-block " type="submit">SUBMIT</button>
                         </div>
                         <div className='col-6 mt-4'>
-                        <button className="btn mt-3 btn-block " type="submit"><Link to="/">Login</Link></button>
+                        <button className="btn mt-3 btn-block " type="submit"><Link to="/">SIGN IN</Link></button>
                         </div>
                     </div>
                 </div>
