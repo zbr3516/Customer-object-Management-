@@ -30,7 +30,7 @@ const Home = (props: Props) => {
             </div>
             <div>
             <button className="btn mt-2 btn-block" type="submit">LOGIN</button>
-            <button className="btn btn-outline-success mt-2 btn-block" type="submit"><Link to="/signup">SIGN UP</Link></button>
+            <button className="btn btn-outline-success mt-2 btn-block" style={{textDecoration:"none"}} type="submit"><Link to="/signup" style={{color : "white"}}>SIGN UP</Link></button>
             {/* <button className="btn btn-outline-success mt-2 btnn1" type="submit">Search</button> */}
             </div>
           </div>

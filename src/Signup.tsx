@@ -60,7 +60,7 @@ const About = (props: Props) => {
                             <button className="btn mt-3 btn-block " type="submit">SUBMIT</button>
                         </div>
                         <div className='col-6 mt-4'>
-                        <button className="btn mt-3 btn-block " type="submit"><Link to="/">SIGN IN</Link></button>
+                        <button className="btn mt-3 btn-block " style={{textDecoration:"none"}} type="submit"><Link to="/" style={{color : "white"}}>SIGN IN</Link></button>
                         </div>
                     </div>
                 </div>
