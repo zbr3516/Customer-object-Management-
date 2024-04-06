@@ -1,5 +1,6 @@
 import React from 'react'
 import './Signup.css'
+import { Link } from 'react-router-dom'
 interface Props  {}
 
 const About = (props: Props) => {
@@ -59,7 +60,7 @@ const About = (props: Props) => {
                             <button className="btn mt-3 btn-block " type="submit">Create Account</button>
                         </div>
                         <div className='col-6 mt-4'>
-                            <button className="btn mt-3 btn-block " type="submit">Login</button>
+                        <button className="btn mt-3 btn-block " type="submit"><Link to="/">Login</Link></button>
                         </div>
                     </div>
                 </div>

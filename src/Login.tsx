@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from 'react-router-dom'
 import Image from './images/com.gif'
 interface Props {}
 
@@ -29,8 +30,8 @@ const Home = (props: Props) => {
             </div>
             <div>
             <button className="btn mt-2 btn-block" type="submit">Login</button>
-            <button className="btn btn-outline-success mt-2 btnn1" type="submit">Sign Up</button>
-            <button className="btn btn-outline-success mt-2 btnn1" type="submit">Search</button>
+            <button className="btn btn-outline-success mt-2 btn-block" type="submit"><Link to="/signup">Sign Up</Link></button>
+            {/* <button className="btn btn-outline-success mt-2 btnn1" type="submit">Search</button> */}
             </div>
           </div>
         </div>
